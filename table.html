@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /*div{
+            /* background-image: url("images/7.jpg") */
+        /* border: 1px solid black; */
+        /* margin-top: 20px; */
+        /* margin-bottom: 130px; */
+        /* margin-right: 750px; */
+        /* margin-left: 20px; */
+        /* background-color: lightcyan; */
+        /* padding-right: 400px; */
+        /* background-color: aqua; */
+        /* border-style: dotted; }*/
+
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            list-style-type: none;
+            font-size: 25px;
+
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            /* align-items: center; */
+            text-align: center;
+        }
+        table{
+            width: 80rem;
+            height: 30rem;
+            
+        }
+        tr:nth-child(even){
+            background-color: antiquewhite;
+        }
+        th{
+            background: antiquewhite;
+        }
+    </style>
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <table >
+            <thead>
+                <tr>
+                    <th colspan="7">Adventure Plan</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Timings</td>
+                    <td colspan="3">Day 1</td>
+                    <TD colspan="2">Day 2 & 3 </TD>
+                    <td>Day4</td>
+                    </td>
+                </tr>
+                <tr>
+                    <td>05 am - 01 pm</td>
+                    <td>Trekking</td>
+                    <TD>Lunch</TD>
+                    <td>Rest</td>
+                    <td colspan="2">Trekking</td>
+                    <td>Suba Diving</td>
+                </tr>
+
+                <tr>
+                    <td>01 pm - 4 pm</td>
+                    <td colspan="3">Para Guliding</td>
+                    <td rowspan="2" colspan="2">10 Km Trek</td>
+
+                    <td rowspan="1">Snorkiling</td>
+                </tr>
+
+                <tr>
+                    <td rowspan="">04 pm - 7 pm</td>
+                    <td rowspan="" colspan="3">Rest</td>
+                    <td rowspan="" colspan="3">Rest</td>
+                </tr>
+
+
+                <tr>
+                    <td>07 pm - 11 pm</td>
+                    <td colspan="3">Bone Fire</td>
+                    <td colspan="2">Rest</td>
+                    <td>Bone Fire</td>
+
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+</body>
+
+</html>
